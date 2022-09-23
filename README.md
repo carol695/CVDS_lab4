@@ -86,10 +86,29 @@ principio de inversión de dependencias:
    las tres variantes de GameScore, e identifique
    condiciones de frontera. 
    
-   
+CC = correctCount
 
+IC = incorrectCount
+
+Input = CC, IC
+
+Invalid = CC < 0 || IC < 0
+
+Invalid = Throws INVALID_PARAMETERS Exception
+
+valid = CC > 0 & IC > 0
+
+![image](https://user-images.githubusercontent.com/63822072/192068255-0eb8fc20-f4fd-4d04-b26a-ef4d2ca87386.png)
+
+   
 7. Para cada clase de equivalencia y condición de frontera, implemente
    una prueba utilizando JUnit.
+
+![image](https://user-images.githubusercontent.com/63822072/192070288-e11a165c-88f6-4330-9878-87ef7306a55e.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192070298-c6aa7cd9-0a52-4d37-93d5-cc0544eec142.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192070310-aff5093d-4d93-4677-b8dc-fc1b24db2146.png)
 
 8. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
@@ -97,6 +116,9 @@ principio de inversión de dependencias:
 	git add .			
 	git commit -m "implementación pruebas"
 	```
+![image](https://user-images.githubusercontent.com/63822072/192070363-3a6da7ea-9652-4174-bd54-4e48a2c47755.png)
+ 
+
 9. Realice la implementación de los 'cascarones' realizados anteriormente.
    Asegúrese que todas las pruebas unitarias creadas en los puntos anteriores
    se ejecutan satisfactoriamente.
