@@ -43,14 +43,27 @@ principio de inversión de dependencias:
 ### Parte I
 
 1. Clone el proyecto (no lo descargue!).
+
+![image](https://user-images.githubusercontent.com/63822072/192019496-83126433-a69f-4b65-9d34-6fb64a3389fe.png)
+
    
 2. A partir del código existente, implemente sólo los cascarones del
    modelo antes indicado.
+   
+ ![image](https://user-images.githubusercontent.com/63822072/192025340-dadc607f-5d8b-41aa-bac7-26a2256c1bfc.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192025376-186e7a57-ff14-4add-a424-7c92f0f9a350.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192025403-e55b348d-1f47-44b7-8a5a-53c808128381.png)
+
 
 3. Haga la especificación de los métodos calculateScore (de las tres
    variantes de GameScore), a partir de las especificaciones
    generales dadas anteriormente. Recuerde tener en cuenta: @pre,
    @pos, @param, @throws.
+   
+   ![image](https://user-images.githubusercontent.com/63822072/192025496-4ec1fa15-6890-4b6e-ae2f-10b8b33e6481.png)
+
 
 4. Haga commit de lo realizado hasta ahora. Desde la terminal:
 
@@ -58,15 +71,22 @@ principio de inversión de dependencias:
 	git add .			
 	git commit -m "especificación métodos"
 	```
+	
+![image](https://user-images.githubusercontent.com/63822072/192026178-d53bf614-3103-4485-ba04-1e582f88ef0f.png)
+
 
 5. Actualice el archivo `pom.xml` e incluya las dependencias para la ultima versión de JUnit y la versión del compilador de Java a la versión 8 .
-   
 
+![image](https://user-images.githubusercontent.com/63822072/192026528-84d9931c-2a9c-4de5-94d6-58098a016b0e.png)
+
+   
 6. Teniendo en cuenta dichas especificaciones, en la clase donde se
    implementarán las pruebas (GameScoreTest), en los
    comentarios iniciales, especifique las clases de equivalencia para
    las tres variantes de GameScore, e identifique
    condiciones de frontera. 
+   
+   
 
 7. Para cada clase de equivalencia y condición de frontera, implemente
    una prueba utilizando JUnit.
