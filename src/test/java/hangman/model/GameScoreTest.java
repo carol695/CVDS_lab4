@@ -23,8 +23,7 @@ public class GameScoreTest {
         GameScore game = new OriginalScore();
         int score = game.CalculateScore(10,0);
         Assert.assertTrue(score == 100);
-    }
-
+    }//
 
     @Test
     public void Dado_EnOriginalScore_cuando_EsDosYOnce_Entonces_retornaCero() throws GameScoreException {
