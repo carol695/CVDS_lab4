@@ -161,12 +161,25 @@ En este taller se va a utilizar un contenedor liviano ([GoogleGuice](https://git
 
 1. Utilizando el HangmanFactoryMethod (MétodoFabrica) incluya el
    OriginalScore a la configuración.
+   
+ ![image](https://user-images.githubusercontent.com/63822072/192077366-79d47687-2b8a-45d4-bf1d-787557dda158.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192077372-e8dbdc40-a8bc-4af7-951b-e7bc94f17d67.png)
+
 
 Incorpore el Contenedor Liviano Guice dentro del proyecto:
 
+![image](https://user-images.githubusercontent.com/63822072/192077386-1e53a859-41c3-4d27-a6e8-09e0ded66581.png)
+
 * Revise las dependencias necesarias en el pom.xml.
+
+![image](https://user-images.githubusercontent.com/63822072/192077411-b0a5fc09-2938-45cb-9b06-4812c5e9a456.png)
+
 * Modifique la inyección de dependencias utilizando guice en lugar del
   método fábrica..
+  
+  ![image](https://user-images.githubusercontent.com/63822072/192077753-e80eb9eb-1dcf-4502-84c8-fcaa40c1fd00.png)
+
 * Configure la aplicación de manera que desde el programa SwingProject
   NO SE CONSTRUYA el Score directamente, sino a través de Guice, asi
   mismo como las otras dependencias que se están inyectando mediante
