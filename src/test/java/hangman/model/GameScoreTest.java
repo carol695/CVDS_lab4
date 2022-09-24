@@ -1,4 +1,7 @@
 package hangman.model;
+
+
+
 import org.junit.Assert;
 import org.junit.Test;
 public class GameScoreTest {
@@ -6,16 +9,28 @@ public class GameScoreTest {
     @Test
     public void Dado_DosNumerosNegativos_Cuando_EsMenosDosYMenosTres_Entonces_retornaFalse() {
         GameScore game;
-        game = new OriginalScore();
-        game.CalculateScore(-2, -3);
-        Assert.assertTrue(false);
-        game = new PowerScore();
-        game.CalculateScore(-2, -3);
-        Assert.assertTrue(false);
+        try {
+            game = new OriginalScore();
+            game.CalculateScore(-2, -3);
+            Assert.assertTrue(false);
+        } catch (GameScoreException e) {
+            Assert.assertTrue(true);
+        }
+        try {
+            game = new PowerScore();
+            game.CalculateScore(-2, -3);
+            Assert.assertTrue(false);
+        } catch (GameScoreException e) {
+            Assert.assertTrue(true);
+        }
 
-        game = new BonusScore();
-        game.CalculateScore(-2, -3);
-        Assert.assertTrue(false);
+        try {
+            game = new BonusScore();
+            game.CalculateScore(-2, -3);
+            Assert.assertTrue(false);
+        } catch (GameScoreException e) {
+            Assert.assertTrue(true);
+        }
     }
 
     @Test

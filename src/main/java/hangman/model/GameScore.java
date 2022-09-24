@@ -8,5 +8,5 @@ public interface GameScore {
      * @param correctCount: puntos gandados por carta correcta; incorrectCount: Puntos perdidos por cartas incorrectas
      * @throws GameScoreException: Parametros_invalidos : Recuento incorrecto
     */
-    public int CalculateScore(int correctCount, int incorrectCount );
+    public int CalculateScore(int correctCount, int incorrectCount ) throws GameScoreException;
 }
