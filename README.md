@@ -4,6 +4,12 @@
 
 ### Desarrollo Dirigido por Pruebas + DIP + DI + Contenedores Livianos
 
+## INTEGRANTES 
+
+* Carol Tatiana Cely 
+* Julian Andres Largo 
+
+____________________________________
 
 Para este taller se va a trabajar sobre el juego del ahorcado.
 
@@ -50,9 +56,15 @@ principio de inversión de dependencias:
 2. A partir del código existente, implemente sólo los cascarones del
    modelo antes indicado.
    
+   ### OriginalScore
+   
  ![image](https://user-images.githubusercontent.com/63822072/192025340-dadc607f-5d8b-41aa-bac7-26a2256c1bfc.png)
+ 
+   ### BonusScore
 
 ![image](https://user-images.githubusercontent.com/63822072/192025376-186e7a57-ff14-4add-a424-7c92f0f9a350.png)
+
+   ### PowerScore
 
 ![image](https://user-images.githubusercontent.com/63822072/192025403-e55b348d-1f47-44b7-8a5a-53c808128381.png)
 
@@ -86,6 +98,8 @@ principio de inversión de dependencias:
    las tres variantes de GameScore, e identifique
    condiciones de frontera. 
    
+### Se eligieron los siguientes casos 
+   
 CC = correctCount
 
 IC = incorrectCount
@@ -97,6 +111,8 @@ Invalid = CC < 0 || IC < 0
 Invalid = Throws INVALID_PARAMETERS Exception
 
 valid = CC > 0 & IC > 0
+
+### Clases de equivalencia 
 
 ![image](https://user-images.githubusercontent.com/63822072/192068255-0eb8fc20-f4fd-4d04-b26a-ef4d2ca87386.png)
 
@@ -117,6 +133,9 @@ valid = CC > 0 & IC > 0
 	git commit -m "implementación pruebas"
 	```
 ![image](https://user-images.githubusercontent.com/63822072/192070363-3a6da7ea-9652-4174-bd54-4e48a2c47755.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192078684-cad57462-de83-44ac-84f9-6a561e036f8e.png)
+
  
 
 9. Realice la implementación de los 'cascarones' realizados anteriormente.
