@@ -123,12 +123,24 @@ valid = CC > 0 & IC > 0
    Asegúrese que todas las pruebas unitarias creadas en los puntos anteriores
    se ejecutan satisfactoriamente.
 
+![image](https://user-images.githubusercontent.com/63822072/192075313-36eb5009-44dc-46ec-9f42-7b66757bbd46.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192075409-202de755-612b-47ce-8056-f6e1285d53c4.png)
+
+![image](https://user-images.githubusercontent.com/63822072/192075424-cbc4cdca-fae7-438c-82cc-d5ba4862a503.png)
+
+
+
+
 10. Al finalizar haga un nuevo commit:
 
 	```bash		
 	git add .			
 	git commit -m "implementación del modelo"
 	```
+	
+	![image](https://user-images.githubusercontent.com/63822072/192075644-715a0681-9471-4da5-8248-0bb7efa849ed.png)
+
 
 11. Para sincronizar el avance en el respositorio y NO PERDER el trabajo, use
     el comando de GIT para enviar los cambios:
