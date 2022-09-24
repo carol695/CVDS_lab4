@@ -2,7 +2,7 @@ package hangman.model;
 
 public class PowerScore implements GameScore {
     /**
-     * @pre Inicia con 0 puntos, puntaje minimo 0
+     * @pre Inicia con 0 puntos, puntaje minimo 0 *
      * @pos Se bonifica con 10 puntos cada letra correcta, se penaliza con -5 puntos letra incorrecta
      * @param correctCount numero de filas
      * @param incorrectCount numero de columnas
